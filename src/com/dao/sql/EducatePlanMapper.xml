@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.EducatePlanDao">
+    <!--查询如何支持项目-->
+    <insert id="saveEducatePlans" parameterType="list">
+        INSERT INTO educateplane(ep_id,ep_grade,ep_college,ep_major,ep_term,ep_courseid,courseCategory_1,
+        ep_terrace,ep_checkway,ep_week,ep_note,ep_checkStatus,ep_checkType)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (uuid(),
+            #{item.ep_grade,jdbcType=VARCHAR},
+            #{item.ep_college,jdbcType=VARCHAR},
+            #{item.ep_major,jdbcType=VARCHAR},
+            #{item.ep_term,jdbcType=VARCHAR},
+            #{item.courseId,jdbcType=VARCHAR},
+            #{item.courseCategory_1,jdbcType=VARCHAR},
+            #{item.ep_terrace,jdbcType=VARCHAR},
+            #{item.ep_checkway,jdbcType=VARCHAR},
+            #{item.ep_week,jdbcType=VARCHAR},
+            #{item.ep_note,jdbcType=VARCHAR},
+            "待审核","新增")
+        </foreach>
+    </insert>
+
+    <!--查询批量导入的数据和数据库中的数据有重复-->
+    <select id="getKeys" parameterType="map" resultType="string">
+        SELECT ep_grade,ep_college,ep_major,ep_term FROM educateplane WHERE (ep_grade,ep_college,ep_major,ep_term) IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            (#{item.ep_grade,jdbcType=VARCHAR},
+            #{item.ep_college,jdbcType=VARCHAR},
+            #{item.ep_major,jdbcType=VARCHAR},
+            #{item.ep_term,jdbcType=VARCHAR})
+        </foreach>
+    </select>
+    <!--查询批量导入的课程id-->
+    <select id="getCourse" parameterType="map" resultType="map">
+        SELECT courseId,courseCode FROM course WHERE courseCode IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item.ep_coursecode,jdbcType=VARCHAR}
+        </foreach>
+    </select>
+
+</mapper>

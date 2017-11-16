@@ -1,0 +1,97 @@
+body.scope{
+	padding: 15px 0 0 25px ;
+}
+input[type=checkbox]{
+	outline: none;
+	width: 14px;
+	height: 14px;
+}
+.checked{
+	width: 79px;
+}
+td.thischecked{
+	position: relative;
+}
+td.thischecked:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.title{
+	margin-bottom: 15px;
+}
+.title .tablebtn{
+	margin-right: 12px;
+}
+.title .tablesearchbtn{
+	margin-left: 20px;
+	margin-right: 12px;
+	width: 270px;
+	vertical-align: middle;
+}
+.pagingbox{
+	margin-top: 7px;
+}
+.tablebox .table th{
+	border-bottom: 1px solid #c5add7;
+}
+.table,.table th{
+	text-align: center;
+}
+.table {
+	border-right: 1px solid #c5add7;
+	border-bottom: 1px solid #c5add7;
+	font-size: 14px;
+	letter-spacing: 1px;
+
+}
+.table th{
+	color: #5c307d;
+	background: #edeaf1;
+}
+.table th,.table td{
+	border-top:1px solid #c5add7 !important;
+	border-left: 1px solid #c5add7;;
+}
+.table th button{
+	background: transparent;
+	width: 100%;
+	height: 100%;
+	transition: all .2s; 
+	-webkit-transition: all .2s;
+	letter-spacing: 1px;
+	position: relative;
+}
+.table th button:active{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+.table th button b{
+	 position: relative;
+	 margin-left: 5px;
+ }
+.table th button b:before{
+	content: '';
+	position: absolute;
+	top: -3.5px;
+	left: 0;
+	border: 6px solid transparent;
+	border-bottom-color:#5c307d;
+}
+.table th button b:after{
+	content: '';
+	position: absolute;
+	bottom:-3.5px;
+	left: 0;
+	border: 6px solid transparent;
+	border-top-color:#c5add7;
+}
+.table th button.revers b:before{
+	border-bottom-color:#c5add7;
+}
+.table th button.revers b:after{
+	border-top-color:#5c307d;
+}

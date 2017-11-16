@@ -1,0 +1,1456 @@
+08:27:15.461	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.028 (S)----(none)----------
+08:27:15.483	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:28:15.490	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+08:28:15.507	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:29:15.521	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.024 (S)----(none)----------
+08:29:15.536	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+08:30:15.602	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.057 (S)----(none)----------
+08:30:15.616	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:31:15.625	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+08:31:15.643	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+08:32:15.644	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+08:32:15.661	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+08:33:15.664	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+08:33:15.681	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+08:34:15.686	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+08:34:15.702	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:35:15.704	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:35:15.720	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+08:36:15.722	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:36:15.736	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:37:15.737	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+08:37:15.754	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:38:15.755	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:38:15.769	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:39:15.771	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:39:15.786	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+08:40:15.788	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:40:15.799	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+08:41:15.805	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:41:15.820	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+08:42:15.818	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:42:15.833	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+08:43:15.829	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+08:43:15.843	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+08:44:15.846	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:44:15.861	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:45:15.857	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+08:45:15.872	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+08:46:15.870	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:46:15.882	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+08:47:15.886	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+08:47:15.900	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:48:15.901	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:48:15.917	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+08:49:15.920	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+08:49:15.934	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+08:50:15.935	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:50:15.949	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:51:15.947	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+08:51:15.960	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+08:52:15.957	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+08:52:15.968	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+08:53:15.970	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:53:15.984	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:54:15.984	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+08:54:15.996	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:55:16.000	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+08:55:16.013	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:56:16.009	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+08:56:16.022	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+08:57:16.022	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+08:57:16.034	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+08:58:16.114	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.077 (S)----(none)----------
+08:58:16.126	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+08:59:16.134	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+08:59:16.148	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:00:16.142	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+09:00:16.157	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:01:16.157	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:01:16.171	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:02:16.175	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:02:16.188	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:03:16.190	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:03:16.202	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:04:16.200	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:04:16.211	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:05:16.215	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:05:16.228	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:05:47.449	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:05:47.459	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+09:06:47.467	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:06:47.482	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:07:47.482	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:07:47.496	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:08:21.755	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:08:21.767	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:09:21.768	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:09:21.775	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:09:49.960	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:09:49.975	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:10:49.979	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:10:49.993	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:11:49.993	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:11:50.018	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.024 (S)----(none)----------
+09:12:50.004	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:12:50.026	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+09:13:50.014	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:13:50.033	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+09:14:50.026	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:14:50.046	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:15:50.042	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+09:15:50.084	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.037 (S)----(none)----------
+09:16:17.290	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.035 (S)----(none)----------
+09:16:17.321	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.021 (S)----(none)----------
+09:17:17.315	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:17:17.333	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:18:17.330	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:18:17.348	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:19:17.342	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:19:17.361	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:20:17.357	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:20:17.374	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:20:33.467	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:20:33.480	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:21:33.483	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:21:33.492	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:22:33.499	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:22:33.513	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:23:33.514	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:23:33.525	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:24:33.527	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:24:33.539	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:25:33.547	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:25:33.561	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:26:33.562	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:26:33.577	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:27:33.578	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:27:33.590	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:28:33.592	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:28:33.605	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:29:33.606	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:29:33.618	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:30:33.614	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+09:30:33.629	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:31:33.639	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.022 (S)----(none)----------
+09:31:33.648	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:32:33.656	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:32:33.669	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:33:33.670	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:33:33.682	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:34:33.686	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:34:33.699	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:35:33.718	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:35:33.732	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:36:33.727	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:36:33.741	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:37:33.742	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:37:33.756	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:38:33.757	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:38:33.774	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+09:39:33.774	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:39:33.787	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:40:33.788	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:40:33.800	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:41:33.800	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:41:33.811	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:42:33.814	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:42:33.827	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:43:33.827	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:43:33.840	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:44:33.837	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:44:33.849	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+09:45:33.851	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:45:33.869	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+09:46:33.861	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:46:33.880	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:47:33.875	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:47:33.890	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:48:33.890	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:48:33.903	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:49:33.904	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:49:33.915	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:50:33.917	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:50:33.929	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+09:51:33.931	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+09:51:33.943	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+09:52:33.948	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+09:52:33.958	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:53:33.959	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+09:53:33.969	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+09:54:33.978	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+09:54:33.985	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+09:55:36.129	数据库连接不上：Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.----(none)----------
+09:55:36.142	SELECT * FROM wordbook WHERE 1=1 and wordbookKey=? LIMIT 1; -- 执行失败 : No operations allowed after connection closed.----(none)----------
+09:55:36.143	null----(none)----------
+09:55:38.146	数据库连接不上：Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.----(none)----------
+09:55:38.147	SELECT * FROM wordbook WHERE 1=1 and wordbookKey=? LIMIT 1; -- 执行失败 : No operations allowed after connection closed.----(none)----------
+09:55:38.148	null----(none)----------
+09:56:38.146	数据库连接不上：Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.----(none)----------
+09:56:38.147	SELECT * FROM wordbook WHERE 1=1 and wordbookKey=? LIMIT 1; -- 执行失败 : No operations allowed after connection closed.----(none)----------
+09:56:38.148	null----(none)----------
+09:56:40.151	数据库连接不上：Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.----(none)----------
+09:56:40.151	SELECT * FROM wordbook WHERE 1=1 and wordbookKey=? LIMIT 1; -- 执行失败 : No operations allowed after connection closed.----(none)----------
+09:56:40.151	null----(none)----------
+09:57:40.152	数据库连接不上：Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.----(none)----------
+09:57:40.152	SELECT * FROM wordbook WHERE 1=1 and wordbookKey=? LIMIT 1; -- 执行失败 : No operations allowed after connection closed.----(none)----------
+09:57:40.153	null----(none)----------
+09:57:42.156	数据库连接不上：Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.----(none)----------
+09:57:42.156	SELECT * FROM wordbook WHERE 1=1 and wordbookKey=? LIMIT 1; -- 执行失败 : No operations allowed after connection closed.----(none)----------
+09:57:42.157	null----(none)----------
+09:58:40.336	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.181 (S)----(none)----------
+09:58:42.277	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.118 (S)----(none)----------
+09:59:01.463	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.074 (S)----(none)----------
+09:59:01.490	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.022 (S)----(none)----------
+10:00:01.479	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:00:01.524	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.033 (S)----(none)----------
+10:01:01.496	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+10:01:01.533	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:01:14.885	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:01:14.897	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:02:14.900	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:02:14.910	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:02:41.291	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:02:41.304	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:03:41.309	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:03:41.322	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:04:41.319	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:04:41.330	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+10:05:41.327	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:05:41.339	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:06:41.341	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:06:41.352	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:07:41.351	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:07:41.361	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:08:41.363	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:08:41.375	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:09:41.372	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:09:41.385	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:10:41.384	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:10:41.398	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:11:41.397	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:11:41.409	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:12:41.404	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+10:12:41.416	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+10:13:41.419	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:13:41.432	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:14:41.434	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:14:41.446	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:15:41.449	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:15:41.461	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:16:41.463	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:16:41.474	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:17:41.477	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:17:41.490	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:18:41.491	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:18:41.502	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:19:41.505	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:19:41.516	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:20:41.517	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:20:41.531	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:21:41.531	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:21:41.542	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:22:41.544	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:22:41.557	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:23:41.561	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+10:23:41.570	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:24:41.574	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:24:41.581	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:25:41.603	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.028 (S)----(none)----------
+10:25:41.615	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:26:41.615	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:26:41.623	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:27:41.626	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:27:41.638	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:28:41.640	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:28:41.652	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:29:41.653	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:29:41.663	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:30:41.667	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:30:41.680	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:31:41.679	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:31:41.692	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:32:41.692	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:32:41.704	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:33:41.705	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:33:41.716	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:34:41.714	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:34:41.724	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+10:35:41.725	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:35:41.736	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:36:41.739	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:36:41.750	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:37:41.748	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:37:41.760	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:38:41.760	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:38:41.771	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:39:41.773	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:39:41.781	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:40:41.785	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:40:41.795	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:41:41.792	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.005 (S)----(none)----------
+10:41:41.801	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.004 (S)----(none)----------
+10:42:41.802	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:42:41.818	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+10:43:41.814	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:43:41.829	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:44:41.827	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:44:41.840	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:45:41.840	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:45:41.850	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:46:41.850	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:46:41.859	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:47:41.860	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:47:41.870	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:48:41.872	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:48:41.883	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:49:07.351	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:49:07.362	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:50:07.371	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+10:50:07.385	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+10:51:07.386	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+10:51:07.402	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+10:52:07.400	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:52:07.414	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:53:07.410	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:53:07.423	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+10:54:07.423	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:54:07.435	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:55:07.431	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+10:55:07.444	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+10:56:07.444	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:56:07.457	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+10:57:07.456	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:57:07.468	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+10:58:07.469	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+10:58:07.479	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+10:59:07.484	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+10:59:07.497	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:00:07.498	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:00:07.510	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:01:07.513	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:01:07.530	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+11:02:07.526	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:02:07.543	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:03:07.536	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:03:07.554	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:04:07.580	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.026 (S)----(none)----------
+11:04:07.609	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:05:07.600	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+11:05:07.627	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+11:06:07.616	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:06:07.641	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:07:07.630	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:07:07.655	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:08:07.639	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:08:07.662	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+11:09:07.655	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:09:07.711	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.047 (S)----(none)----------
+11:10:07.671	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:10:07.721	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:11:07.684	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:11:07.730	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:12:07.699	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:12:07.744	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:13:07.714	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:13:07.758	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:14:07.729	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:14:07.772	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:15:07.745	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+11:15:07.783	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:16:07.762	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:16:07.797	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:16:44.702	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:16:44.712	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+11:17:44.722	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+11:17:44.825	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.101 (S)----(none)----------
+11:18:22.954	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+11:18:22.974	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+11:19:22.973	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:19:23.011	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.036 (S)----(none)----------
+11:20:22.988	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:20:23.023	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:21:23.013	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.023 (S)----(none)----------
+11:21:23.035	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:21:49.073	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:21:49.085	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:22:49.092	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:22:49.105	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:23:49.108	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:23:49.125	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+11:24:15.192	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:24:15.203	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:25:00.617	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:25:00.629	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:25:43.380	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+11:25:43.396	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:26:43.395	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:26:43.405	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:26:50.891	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:26:50.906	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:27:50.911	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:27:50.924	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:28:50.926	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:28:50.941	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:29:50.938	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:29:50.950	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:30:50.949	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:30:50.958	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+11:31:50.964	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:31:51.001	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.036 (S)----(none)----------
+11:32:50.992	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.026 (S)----(none)----------
+11:32:51.009	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:33:51.000	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+11:33:51.019	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:34:09.839	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:34:09.853	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:35:09.864	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+11:35:09.879	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:36:09.880	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:36:09.892	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:37:09.894	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:37:09.906	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:37:22.081	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:37:22.094	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:38:22.102	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:38:22.113	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:39:22.122	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+11:39:22.132	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:40:17.153	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:40:17.167	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:41:17.167	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:41:17.174	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:42:17.178	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:42:17.187	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:43:17.194	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+11:43:17.209	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:44:17.211	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+11:44:17.226	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:45:17.229	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:45:17.243	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:46:17.248	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+11:46:17.269	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+11:47:17.258	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:47:17.277	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+11:47:41.425	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:47:41.437	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:48:41.444	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+11:48:41.458	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:49:41.456	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:49:41.467	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:50:41.470	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:50:41.479	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+11:51:41.484	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:51:41.497	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:52:41.494	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:52:41.507	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:53:41.506	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:53:41.518	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:54:41.521	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+11:54:41.534	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:55:41.533	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:55:41.544	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+11:56:41.547	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:56:41.558	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+11:57:41.561	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+11:57:41.573	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+11:58:41.569	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:58:41.582	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+11:59:41.577	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+11:59:41.590	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:00:41.591	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:00:41.601	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+12:01:41.601	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+12:01:41.609	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:02:41.616	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:02:41.631	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:03:41.632	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:03:41.650	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+12:04:41.642	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+12:04:41.660	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+12:05:41.657	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:05:41.671	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+12:06:41.670	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:06:41.680	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:07:41.709	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.033 (S)----(none)----------
+12:07:41.719	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+12:08:41.724	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:08:41.736	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:09:41.742	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+12:09:41.757	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:10:41.757	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:10:41.774	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+12:11:41.768	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+12:11:41.784	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:12:41.776	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+12:12:41.792	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:13:41.784	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:13:41.801	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:14:41.792	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:14:41.808	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+12:15:41.801	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:15:41.815	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+12:16:41.814	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:16:41.828	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:17:41.829	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:17:41.842	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:18:41.844	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:18:41.858	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:19:41.859	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:19:41.873	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:20:41.872	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:20:41.887	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:21:41.887	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:21:41.900	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:22:41.900	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:22:41.912	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:23:41.910	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+12:23:41.924	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+12:24:41.925	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:24:41.939	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:25:41.939	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:25:41.952	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:26:41.954	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:26:41.967	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:27:41.971	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+12:27:41.985	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:28:41.986	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:28:42.000	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:29:42.000	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:29:42.015	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:30:42.008	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+12:30:42.024	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+12:31:42.022	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:31:42.038	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:32:42.033	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+12:32:42.049	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+12:33:42.045	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:33:42.061	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:34:42.062	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:34:42.076	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:35:42.079	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+12:35:42.092	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:36:42.093	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+12:36:42.105	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+12:37:42.108	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+12:37:42.120	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:01:35.452	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+13:01:35.459	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+13:02:35.469	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+13:02:35.482	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:03:35.484	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+13:03:35.497	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:04:35.501	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+13:04:35.514	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:05:35.515	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:05:35.527	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:06:35.529	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:06:35.540	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+13:07:35.544	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:07:35.558	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:08:35.561	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:08:35.573	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:09:35.576	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:09:35.589	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:10:35.590	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:10:35.604	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:11:35.606	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+13:11:35.621	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+13:12:35.620	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+13:12:35.645	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+13:13:35.634	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:13:35.659	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:14:35.651	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:14:35.673	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:15:35.664	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:15:35.686	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:16:35.679	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:16:35.700	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:17:35.694	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:17:35.713	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:18:35.707	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:18:35.725	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:19:35.722	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:19:35.738	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:20:35.736	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:20:35.751	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:21:35.750	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:21:35.766	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:22:35.765	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:22:35.779	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:23:35.778	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:23:35.793	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:24:35.792	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:24:35.806	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:25:35.808	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+13:25:35.821	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:26:35.822	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:26:35.836	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:27:35.835	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:27:35.850	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:28:35.848	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:28:35.863	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:29:35.862	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:29:35.875	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+13:30:35.874	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:30:35.886	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:31:35.888	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:31:35.902	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:44:43.314	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+13:44:43.320	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+13:45:43.327	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:45:43.340	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:46:43.338	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+13:46:43.350	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+13:47:43.352	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+13:47:43.364	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:48:43.361	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+13:48:43.373	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+13:49:43.374	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:49:43.387	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:50:43.388	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:50:43.400	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:51:43.402	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:51:43.415	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:52:43.415	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:52:43.428	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:53:43.426	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+13:53:43.438	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+13:54:43.437	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+13:54:43.448	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+13:55:43.451	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:55:43.463	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:56:43.463	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+13:56:43.471	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+13:57:43.476	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:57:43.488	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:58:43.490	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+13:58:43.503	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:59:43.504	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+13:59:43.518	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:00:43.517	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:00:43.532	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:01:43.575	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.051 (S)----(none)----------
+14:01:43.585	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:02:43.630	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.046 (S)----(none)----------
+14:02:43.641	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+14:03:43.642	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:03:43.651	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:04:43.658	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:04:43.672	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:05:43.675	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:05:43.687	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:06:43.689	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:06:43.701	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:07:43.700	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:07:43.711	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:08:43.711	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+14:08:43.720	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:09:43.722	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+14:09:43.731	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:10:43.736	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:10:43.749	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:11:22.857	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:11:22.870	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:12:22.875	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:12:22.884	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:13:22.890	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:13:22.905	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:13:59.409	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:13:59.444	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:14:59.457	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+14:14:59.471	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:15:59.479	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+14:15:59.493	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:16:59.496	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:16:59.510	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:17:59.511	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:17:59.525	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:18:59.528	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:18:59.540	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:19:59.546	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+14:19:59.562	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:20:59.555	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:20:59.570	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:22:05.088	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:22:05.102	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:23:05.138	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.039 (S)----(none)----------
+14:23:05.151	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:24:05.157	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:24:05.173	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:25:05.173	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:25:05.188	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:26:05.190	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:26:05.205	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:27:05.205	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:27:05.215	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:28:05.220	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:28:05.236	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:29:05.239	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+14:29:05.254	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:30:05.256	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:30:05.268	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:31:05.265	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:31:05.277	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:32:05.282	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:32:05.294	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:33:05.299	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:33:05.314	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:34:05.314	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:34:05.328	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:35:05.328	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:35:05.337	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+14:36:05.340	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:36:05.354	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:37:05.360	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:37:05.376	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:38:05.376	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:38:05.392	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:39:05.389	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:39:05.406	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:40:05.403	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:40:05.421	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:41:05.420	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:41:05.438	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:42:05.430	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:42:05.448	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:43:05.447	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:43:05.464	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:44:05.462	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:44:05.476	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:45:05.479	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:45:05.492	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:46:05.533	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.047 (S)----(none)----------
+14:46:05.556	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+14:46:55.096	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:46:55.110	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:47:55.115	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+14:47:55.127	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:48:55.134	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+14:48:55.151	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:49:55.154	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+14:49:55.172	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+14:50:55.171	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:50:55.188	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:51:55.189	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+14:51:55.204	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+14:52:55.204	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:52:55.223	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+14:53:55.227	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+14:53:55.243	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:54:55.244	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:54:55.256	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:55:55.262	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+14:55:55.277	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:56:55.279	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+14:56:55.290	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+14:57:55.296	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+14:57:55.308	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+14:58:55.306	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+14:58:55.318	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+14:59:55.324	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+14:59:55.338	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:00:55.339	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:00:55.368	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.028 (S)----(none)----------
+15:01:55.358	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:01:55.385	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:02:55.374	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:02:55.400	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:03:55.390	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:03:55.413	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:04:55.406	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:04:55.428	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:05:55.418	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:05:55.438	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:06:55.429	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:06:55.448	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:07:55.443	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:07:55.465	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:08:55.495	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.047 (S)----(none)----------
+15:08:55.508	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:09:55.520	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.021 (S)----(none)----------
+15:09:55.533	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:10:55.537	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:10:55.548	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:11:55.553	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:11:55.567	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:12:55.568	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:12:55.584	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:13:55.584	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:13:55.600	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:14:55.601	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:14:55.618	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:15:55.615	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:15:55.630	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:55.635	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+15:16:55.649	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:16:55.667	SELECT * FROM arrangecourse WHERE 1=1 and is_now='1' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:16:55.677	SELECT COUNT(1) AS `count` FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' ; -- 执行时间：0.009 (S)----(none)----------
+15:16:55.689	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term like '2016/2017第二学期'; -- 执行时间：0.011 (S)----(none)----------
+15:16:55.702	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:55.712	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.009 (S)----(none)----------
+15:16:55.722	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:55.734	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:55.877	UPDATE paymentstatus SET `shouldPay`='246.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.142 (S)----(none)----------
+15:16:55.880	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:55.895	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:16:55.906	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.01 (S)----(none)----------
+15:16:55.917	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:55.926	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.038	UPDATE paymentstatus SET `shouldPay`='258.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.112 (S)----(none)----------
+15:16:56.039	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.050	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.077	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.026 (S)----(none)----------
+15:16:56.097	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+15:16:56.108	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.157	UPDATE paymentstatus SET `shouldPay`='82.55' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.048 (S)----(none)----------
+15:16:56.158	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.169	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.180	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.191	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.227	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.035 (S)----(none)----------
+15:16:56.259	UPDATE paymentstatus SET `shouldPay`='258.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.031 (S)----(none)----------
+15:16:56.260	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.269	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.280	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.290	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.299	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.332	UPDATE paymentstatus SET `shouldPay`='270.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.032 (S)----(none)----------
+15:16:56.333	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.342	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.350	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.007 (S)----(none)----------
+15:16:56.360	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.370	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.401	UPDATE paymentstatus SET `shouldPay`='305.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.031 (S)----(none)----------
+15:16:56.402	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.410	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.419	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.429	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.438	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.474	UPDATE paymentstatus SET `shouldPay`='270.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.035 (S)----(none)----------
+15:16:56.475	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.486	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:16:56.495	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.504	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.512	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:16:56.544	UPDATE paymentstatus SET `shouldPay`='187.55' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.03 (S)----(none)----------
+15:16:56.545	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.554	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:16:56.563	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.572	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.580	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:16:56.615	UPDATE paymentstatus SET `shouldPay`='222.55' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.034 (S)----(none)----------
+15:16:56.617	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.628	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.637	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.647	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:16:56.655	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.685	UPDATE paymentstatus SET `shouldPay`='140.0' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.029 (S)----(none)----------
+15:16:56.686	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.694	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.702	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.710	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.008 (S)----(none)----------
+15:16:56.749	UPDATE paymentstatus SET `books`='外语3|在' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.039 (S)----(none)----------
+15:16:56.751	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.764	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.013 (S)----(none)----------
+15:16:56.802	UPDATE paymentstatus SET `books`='在' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.037 (S)----(none)----------
+15:16:56.804	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.817	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.013 (S)----(none)----------
+15:16:56.857	UPDATE paymentstatus SET `books`='外语3' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.039 (S)----(none)----------
+15:16:56.858	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.871	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='123'; -- 执行时间：0.012 (S)----(none)----------
+15:16:56.909	UPDATE paymentstatus SET `books`='在|外语3|外语3' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.037 (S)----(none)----------
+15:16:56.911	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:16:56.927	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.015 (S)----(none)----------
+15:16:56.966	UPDATE paymentstatus SET `books`='外语3|外语3|在' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.038 (S)----(none)----------
+15:16:56.967	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:17:55.646	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:17:56.982	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:18:55.660	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:18:56.998	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:19:55.674	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:19:57.012	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:20:55.688	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:20:57.025	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:21:55.701	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:21:57.040	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:22:55.719	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+15:22:57.050	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:23:55.735	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:23:57.060	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:24:55.751	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:24:57.072	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:55.765	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:25:57.084	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.093	SELECT * FROM arrangecourse WHERE 1=1 and is_now='1' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.101	SELECT COUNT(1) AS `count` FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' ; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.110	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term like '2016/2017第二学期'; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.119	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.126	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.134	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.141	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.176	UPDATE paymentstatus SET `shouldPay`='281.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.034 (S)----(none)----------
+15:25:57.177	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.184	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.192	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.199	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.206	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.237	UPDATE paymentstatus SET `shouldPay`='293.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.031 (S)----(none)----------
+15:25:57.238	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.246	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.254	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.262	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.268	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.310	UPDATE paymentstatus SET `shouldPay`='82.55' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.041 (S)----(none)----------
+15:25:57.311	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.318	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.325	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.332	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.338	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.371	UPDATE paymentstatus SET `shouldPay`='211.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.032 (S)----(none)----------
+15:25:57.372	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.383	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:25:57.392	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.402	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.411	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.459	UPDATE paymentstatus SET `shouldPay`='223.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.048 (S)----(none)----------
+15:25:57.460	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.471	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:25:57.482	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.01 (S)----(none)----------
+15:25:57.494	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:25:57.504	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.537	UPDATE paymentstatus SET `shouldPay`='258.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.032 (S)----(none)----------
+15:25:57.539	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.552	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:25:57.563	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.011 (S)----(none)----------
+15:25:57.574	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:25:57.585	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.625	UPDATE paymentstatus SET `shouldPay`='305.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.039 (S)----(none)----------
+15:25:57.627	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.637	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:25:57.647	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.656	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.663	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.695	UPDATE paymentstatus SET `shouldPay`='187.55' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.031 (S)----(none)----------
+15:25:57.696	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.704	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.712	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.719	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.726	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.759	UPDATE paymentstatus SET `shouldPay`='222.55' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.033 (S)----(none)----------
+15:25:57.759	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.767	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.774	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.006 (S)----(none)----------
+15:25:57.781	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:25:57.788	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.005 (S)----(none)----------
+15:25:57.821	UPDATE paymentstatus SET `shouldPay`='140.0' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.032 (S)----(none)----------
+15:25:57.822	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.832	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.841	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.850	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.009 (S)----(none)----------
+15:25:57.884	UPDATE paymentstatus SET `books`='外语3' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.034 (S)----(none)----------
+15:25:57.885	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.894	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='123'; -- 执行时间：0.008 (S)----(none)----------
+15:25:57.929	UPDATE paymentstatus SET `books`='在|外语3|外语3' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.035 (S)----(none)----------
+15:25:57.930	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:57.941	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.011 (S)----(none)----------
+15:25:58.056	UPDATE paymentstatus SET `books`='在' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.115 (S)----(none)----------
+15:25:58.057	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:58.065	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.008 (S)----(none)----------
+15:25:58.095	UPDATE paymentstatus SET `books`='外语3|在' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.03 (S)----(none)----------
+15:25:58.096	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:25:58.104	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.008 (S)----(none)----------
+15:25:58.142	UPDATE paymentstatus SET `books`='外语3|外语3|在' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.038 (S)----(none)----------
+15:25:58.143	结果:1; -- 执行时间：0.0 (S)----(none)----------
+15:26:55.779	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:26:58.157	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:27:55.792	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:27:58.165	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:28:55.805	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:28:58.176	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:29:55.814	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:29:58.190	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:30:55.828	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:30:58.236	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.043 (S)----(none)----------
+15:31:55.844	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:31:58.258	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+15:32:55.855	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:32:58.266	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:33:55.870	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:33:58.275	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:34:55.882	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:34:58.287	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:35:55.890	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:35:58.296	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:36:55.905	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:36:58.310	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:37:55.918	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:37:58.323	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:38:55.931	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+15:38:58.336	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:39:55.945	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:39:58.347	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:40:55.958	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:40:58.362	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:41:56.073	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.113 (S)----(none)----------
+15:41:58.372	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+15:42:56.116	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.041 (S)----(none)----------
+15:42:58.385	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:43:56.123	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.005 (S)----(none)----------
+15:43:58.399	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:44:56.134	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:44:58.413	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:45:56.148	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:45:58.426	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:46:56.189	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.035 (S)----(none)----------
+15:46:58.441	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:47:56.205	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:47:58.453	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:48:56.230	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.023 (S)----(none)----------
+15:48:58.461	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+15:49:56.242	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:49:58.477	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+15:50:56.262	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+15:50:58.487	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:51:56.279	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+15:51:58.500	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:52:56.292	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+15:52:58.516	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:53:56.308	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:53:58.530	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:54:56.321	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:54:58.544	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:55:56.337	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:55:58.558	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+15:56:56.352	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:56:58.573	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:57:56.367	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:57:58.586	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+15:58:56.377	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+15:58:58.618	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.03 (S)----(none)----------
+15:59:56.392	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+15:59:58.632	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:00:56.405	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:00:58.644	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:01:56.419	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:01:58.658	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:02:56.434	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:02:58.672	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:03:56.448	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:03:58.685	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:58.697	SELECT * FROM arrangecourse WHERE 1=1 and is_now='1' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:58.708	SELECT COUNT(1) AS `count` FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' ; -- 执行时间：0.01 (S)----(none)----------
+16:03:58.723	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term like '2016/2017第二学期'; -- 执行时间：0.014 (S)----(none)----------
+16:03:58.737	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:03:58.753	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.015 (S)----(none)----------
+16:03:58.763	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:03:58.771	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:03:58.807	UPDATE paymentstatus SET `shouldPay`='340.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.035 (S)----(none)----------
+16:03:58.808	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:58.818	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:03:58.830	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.011 (S)----(none)----------
+16:03:58.848	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+16:03:58.856	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:03:58.893	UPDATE paymentstatus SET `shouldPay`='352.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.037 (S)----(none)----------
+16:03:58.894	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:58.902	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:03:58.910	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.007 (S)----(none)----------
+16:03:58.918	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:03:58.927	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:03:58.974	UPDATE paymentstatus SET `shouldPay`='94.55' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.046 (S)----(none)----------
+16:03:58.975	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:58.986	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:03:58.996	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.008	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.020	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.060	UPDATE paymentstatus SET `shouldPay`='317.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.039 (S)----(none)----------
+16:03:59.061	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.073	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.084	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.095	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.107	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.149	UPDATE paymentstatus SET `shouldPay`='329.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.041 (S)----(none)----------
+16:03:59.151	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.163	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.174	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.186	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.197	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.235	UPDATE paymentstatus SET `shouldPay`='364.1' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.038 (S)----(none)----------
+16:03:59.237	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.248	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.259	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.271	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.286	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:03:59.324	UPDATE paymentstatus SET `shouldPay`='364.1' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.036 (S)----(none)----------
+16:03:59.325	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.337	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.348	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.366	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+16:03:59.375	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.439	UPDATE paymentstatus SET `shouldPay`='234.55' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.064 (S)----(none)----------
+16:03:59.441	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.450	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.459	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.008 (S)----(none)----------
+16:03:59.469	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.478	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:03:59.517	UPDATE paymentstatus SET `shouldPay`='269.55' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.038 (S)----(none)----------
+16:03:59.519	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.529	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.542	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.013 (S)----(none)----------
+16:03:59.552	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.562	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.598	UPDATE paymentstatus SET `shouldPay`='175.0' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.036 (S)----(none)----------
+16:03:59.599	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.608	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.008 (S)----(none)----------
+16:03:59.617	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.628	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='123'; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.659	UPDATE paymentstatus SET `books`='在|外语3|外语3' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.031 (S)----(none)----------
+16:03:59.661	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.670	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.009 (S)----(none)----------
+16:03:59.707	UPDATE paymentstatus SET `books`='外语3|在' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.037 (S)----(none)----------
+16:03:59.708	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.722	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.014 (S)----(none)----------
+16:03:59.759	UPDATE paymentstatus SET `books`='外语3|外语3|在' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.036 (S)----(none)----------
+16:03:59.761	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.773	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.011 (S)----(none)----------
+16:03:59.815	UPDATE paymentstatus SET `books`='外语3' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.041 (S)----(none)----------
+16:03:59.816	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:03:59.827	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.01 (S)----(none)----------
+16:03:59.868	UPDATE paymentstatus SET `books`='在' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.04 (S)----(none)----------
+16:03:59.869	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:04:56.463	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:04:59.888	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:05:56.478	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:05:59.912	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.023 (S)----(none)----------
+16:06:56.488	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:06:59.923	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:07:56.500	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:07:59.939	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:08:56.519	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:08:59.954	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:09:56.539	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+16:09:59.968	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:10:56.570	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.029 (S)----(none)----------
+16:10:59.983	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:11:56.583	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:12:00.003	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+16:12:22.154	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.028 (S)----(none)----------
+16:12:22.173	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:13:22.180	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:13:22.187	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+16:14:22.198	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:14:22.213	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:15:22.214	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:15:22.260	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.045 (S)----(none)----------
+16:16:22.223	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:16:22.302	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.041 (S)----(none)----------
+16:17:06.374	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:17:06.391	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:18:06.399	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+16:18:06.411	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:19:06.421	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+16:19:06.434	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:20:06.439	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:20:06.458	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+16:21:06.453	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:21:06.469	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:22:06.460	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.005 (S)----(none)----------
+16:22:06.478	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:23:06.471	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:23:06.488	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:23:31.696	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.025 (S)----(none)----------
+16:23:31.710	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:24:31.715	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:24:31.731	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:25:31.728	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:25:31.743	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:26:31.737	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:26:31.751	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:27:31.752	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:27:31.768	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:28:31.764	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:28:31.780	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:29:31.781	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:29:31.795	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:30:31.794	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:30:31.808	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:31:31.808	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:31:31.818	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:32:31.823	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:32:31.838	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:33:31.839	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:33:31.852	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:34:31.849	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:34:31.878	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.024 (S)----(none)----------
+16:35:31.866	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:35:31.894	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:36:31.879	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:36:31.908	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:37:31.890	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:31.919	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:31.932	SELECT * FROM arrangecourse WHERE 1=1 and is_now='1' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:37:31.942	SELECT COUNT(1) AS `count` FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' ; -- 执行时间：0.009 (S)----(none)----------
+16:37:31.951	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term like '2016/2017第二学期'; -- 执行时间：0.008 (S)----(none)----------
+16:37:31.961	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:31.971	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.009 (S)----(none)----------
+16:37:31.979	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:31.988	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.133	UPDATE paymentstatus SET `shouldPay`='350.19998' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.144 (S)----(none)----------
+16:37:32.134	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.140	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.147	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.153	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.161	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.195	UPDATE paymentstatus SET `shouldPay`='362.19998' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.034 (S)----(none)----------
+16:37:32.196	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.204	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.210	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.216	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.223	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.282	UPDATE paymentstatus SET `shouldPay`='117.1' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.059 (S)----(none)----------
+16:37:32.283	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.295	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:37:32.302	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.312	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.322	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.362	UPDATE paymentstatus SET `shouldPay`='327.2' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.04 (S)----(none)----------
+16:37:32.363	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.370	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.376	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.385	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.392	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.422	UPDATE paymentstatus SET `shouldPay`='339.2' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.03 (S)----(none)----------
+16:37:32.423	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.431	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.440	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.450	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.458	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.496	UPDATE paymentstatus SET `shouldPay`='374.2' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.038 (S)----(none)----------
+16:37:32.497	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.509	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='123' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:37:32.518	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '123'; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.527	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.534	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.582	UPDATE paymentstatus SET `shouldPay`='374.19998' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.048 (S)----(none)----------
+16:37:32.582	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.591	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.600	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.608	SELECT * FROM course WHERE 1=1 and courseCode='20140704' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.616	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like '85687e20-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.654	UPDATE paymentstatus SET `shouldPay`='222.1' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.038 (S)----(none)----------
+16:37:32.655	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.662	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:37:32.671	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like 'b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.679	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.689	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:37:32.722	UPDATE paymentstatus SET `shouldPay`='257.1' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.033 (S)----(none)----------
+16:37:32.723	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.730	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.736	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester like '2016/2017第二学期' and studentId like '4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.005 (S)----(none)----------
+16:37:32.745	SELECT * FROM course WHERE 1=1 and courseCode='111' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.751	SELECT * FROM teachingmaterials WHERE 1=1 and tmId like 'a7e94109-2674-11e7-8e99-00ac9c2c0afa' LIMIT 1; -- 执行时间：0.006 (S)----(none)----------
+16:37:32.787	UPDATE paymentstatus SET `shouldPay`='140.0' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.036 (S)----(none)----------
+16:37:32.788	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.797	SELECT COUNT(1) AS `count` FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.808	SELECT * FROM paymentstatus WHERE 1=1 and semester='2016/2017第二学期' ; -- 执行时间：0.01 (S)----(none)----------
+16:37:32.819	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.01 (S)----(none)----------
+16:37:32.856	UPDATE paymentstatus SET `books`='外语3|在' WHERE semester='2016/2017第二学期' and studentId='b4b7890a-390b-4d76-b269-ee1529fbc1ef'; -- 执行时间：0.036 (S)----(none)----------
+16:37:32.857	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.865	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='123'; -- 执行时间：0.008 (S)----(none)----------
+16:37:32.904	UPDATE paymentstatus SET `books`='在|外语3|外语3' WHERE semester='2016/2017第二学期' and studentId='123'; -- 执行时间：0.039 (S)----(none)----------
+16:37:32.905	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.916	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.01 (S)----(none)----------
+16:37:32.948	UPDATE paymentstatus SET `books`='在' WHERE semester='2016/2017第二学期' and studentId='4f4ef905-693b-49e3-92de-e2be492e6ebd'; -- 执行时间：0.031 (S)----(none)----------
+16:37:32.949	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:32.959	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.009 (S)----(none)----------
+16:37:32.995	UPDATE paymentstatus SET `books`='外语3' WHERE semester='2016/2017第二学期' and studentId='1858608c-2137-4b47-8525-f437e2d3e89d'; -- 执行时间：0.036 (S)----(none)----------
+16:37:32.996	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:37:33.006	SELECT * FROM stuchoosecourse WHERE iscomfirm='1' and term='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.009 (S)----(none)----------
+16:37:33.039	UPDATE paymentstatus SET `books`='外语3|外语3|在' WHERE semester='2016/2017第二学期' and studentId='665ca4d5-233b-11e7-a910-00ac9c2c0afa'; -- 执行时间：0.032 (S)----(none)----------
+16:37:33.040	结果:1; -- 执行时间：0.0 (S)----(none)----------
+16:38:31.909	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:38:33.058	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:39:31.924	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:39:33.067	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:40:31.939	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:40:33.083	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:41:31.954	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:41:33.091	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+16:42:27.928	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:42:27.950	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:43:05.780	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.026 (S)----(none)----------
+16:43:05.810	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.025 (S)----(none)----------
+16:44:05.798	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:44:05.824	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:45:05.815	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:45:05.844	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+16:46:05.831	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:46:05.861	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:47:05.848	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:47:05.876	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:48:05.864	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:48:05.888	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:49:05.879	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:49:05.903	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:50:05.896	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:50:05.924	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+16:51:05.906	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+16:51:05.941	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+16:52:05.922	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:52:05.958	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:53:05.937	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+16:53:05.972	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+16:54:05.951	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:54:05.984	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:55:05.980	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.028 (S)----(none)----------
+16:55:05.996	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+16:56:05.998	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+16:56:06.012	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:57:06.012	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+16:57:06.119	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.103 (S)----(none)----------
+16:58:06.140	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.126 (S)----(none)----------
+16:58:06.152	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+16:59:06.160	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+16:59:06.170	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:00:06.172	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:00:06.185	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:01:06.189	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:01:06.231	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.041 (S)----(none)----------
+17:02:06.198	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:02:06.241	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:03:06.212	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:03:06.272	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.029 (S)----(none)----------
+17:04:06.227	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:04:06.312	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.038 (S)----(none)----------
+17:05:06.236	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:05:06.336	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.022 (S)----(none)----------
+17:06:06.252	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:06:06.349	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:07:06.280	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.026 (S)----(none)----------
+17:07:06.363	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:08:06.310	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.029 (S)----(none)----------
+17:08:06.378	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:09:06.325	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:09:06.390	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:10:06.335	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:10:06.404	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:11:06.346	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:11:06.414	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:12:01.800	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:12:01.819	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:13:01.843	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.021 (S)----(none)----------
+17:13:01.854	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:14:01.857	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:14:01.884	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.025 (S)----(none)----------
+17:14:26.118	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:14:26.135	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:15:26.136	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:15:26.147	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:16:26.146	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:16:26.159	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:17:26.158	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:17:26.170	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:18:26.174	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:18:26.189	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:19:26.192	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:19:26.206	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:20:26.208	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:20:26.252	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.042 (S)----(none)----------
+17:21:27.002	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.031 (S)----(none)----------
+17:21:27.010	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:22:27.019	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:22:27.036	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:23:27.038	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+17:23:27.053	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:24:27.059	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+17:24:27.075	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:25:27.074	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:25:27.091	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:26:27.092	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:26:27.108	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:27:27.111	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+17:27:27.129	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:28:27.128	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:28:27.144	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:29:27.163	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:29:27.180	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:30:27.173	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:30:27.189	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:31:27.182	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:31:27.197	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:32:38.424	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:32:38.437	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:33:38.445	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:33:38.456	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:34:38.459	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:34:38.473	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:35:38.474	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:35:38.487	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:36:38.492	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+17:36:38.509	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:37:38.506	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:37:38.520	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:38:38.516	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:38:38.530	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:39:38.531	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:39:38.543	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:40:38.550	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+17:40:38.565	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:41:38.569	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:41:38.583	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:42:38.586	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:42:38.599	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:43:38.595	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:43:38.608	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:44:38.605	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:44:38.624	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:45:38.623	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:45:38.643	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+17:46:38.646	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.021 (S)----(none)----------
+17:46:38.660	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:47:38.669	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:47:38.682	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.011 (S)----(none)----------
+17:48:38.704	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.033 (S)----(none)----------
+17:48:38.715	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.009 (S)----(none)----------
+17:49:38.723	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:49:38.737	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:50:27.664	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+17:50:27.677	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:51:27.680	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:51:27.690	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:52:27.703	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.021 (S)----(none)----------
+17:52:27.725	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.02 (S)----(none)----------
+17:53:27.720	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.013 (S)----(none)----------
+17:53:27.737	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------
+17:54:27.740	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.019 (S)----(none)----------
+17:54:27.753	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+17:55:27.750	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.008 (S)----(none)----------
+17:55:27.761	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.007 (S)----(none)----------
+17:56:27.784	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.033 (S)----(none)----------
+17:56:27.803	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.018 (S)----(none)----------
+17:57:27.803	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.017 (S)----(none)----------
+17:57:27.819	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+17:58:27.820	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:58:27.837	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.016 (S)----(none)----------
+17:59:27.837	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+17:59:27.861	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.023 (S)----(none)----------
+18:00:27.854	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+18:00:27.877	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+18:01:27.882	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+18:01:27.895	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.012 (S)----(none)----------
+18:02:27.900	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+18:02:27.915	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.014 (S)----(none)----------
+18:03:27.917	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='其他专业课程选课结束时间' LIMIT 1; -- 执行时间：0.015 (S)----(none)----------
+18:03:27.928	SELECT * FROM wordbook WHERE 1=1 and wordbookKey='教材自助缴费开始时间' LIMIT 1; -- 执行时间：0.01 (S)----(none)----------

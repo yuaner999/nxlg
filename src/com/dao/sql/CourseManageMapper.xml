@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.CourseManageDao">
+    <!--获取老师的所在学院-->
+    <select id="getTeacherCollege" parameterType="map" resultType="map">
+        SELECT * FROM `teacher` WHERE teacherNumber=#{sessionUserName}
+    </select>
+
+    <!--查询课程代码是否重复-->
+    <select id="getCourseCode" parameterType="map" resultType="string">
+        SELECT courseCode FROM course
+        WHERE (course.courseCode)IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            (#{item.courseCode,jdbcType=VARCHAR})
+        </foreach>
+    </select>
+
+    <!--查询课程名称是否重复-->
+    <select id="getCourseName" parameterType="map" resultType="string">
+        SELECT chineseName,assumeUnit FROM course
+        WHERE (course.chineseName,course.assumeUnit)IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            (#{item.chineseName,jdbcType=VARCHAR},
+            #{item.assumeUnit,jdbcType=VARCHAR})
+        </foreach>
+    </select>
+
+    <!--批量增加课程-->
+    <insert id="saveCourseManage" parameterType="list">
+        INSERT INTO `course` (
+        `courseId`,
+        `courseCode`,
+        `chineseName`,
+        `englishName`,
+        `assumeUnit`,
+        `courseCategory_3`,
+        `courseCategory_4`,
+        `courseCategory_5`,
+        `totalCredit`,
+        `totalTime`,
+        `courseStatus`,
+        `checkStatus`,
+        `checkType`,
+        `mainteacherid`
+        )
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+        (uuid(),
+        #{item.courseCode,jdbcType=VARCHAR},
+        #{item.chineseName,jdbcType=VARCHAR},
+        #{item.englishName,jdbcType=VARCHAR},
+        #{item.assumeUnit,jdbcType=VARCHAR},
+        #{item.courseCategory_3,jdbcType=VARCHAR},
+        #{item.courseCategory_4,jdbcType=VARCHAR},
+        #{item.courseCategory_5,jdbcType=VARCHAR},
+        #{item.totalCredit,jdbcType=VARCHAR},
+        #{item.totalTime,jdbcType=VARCHAR},
+        #{item.courseStatus,jdbcType=VARCHAR},
+        '待写教材',
+        '新增',
+        (SELECT teacher.`teacherId` FROM teacher WHERE teacher.`teacherNumber`=#{item.teacherNumber,jdbcType=VARCHAR}))
+        </foreach>
+    </insert>
+
+    <!--批量增加课程-->
+    <insert id="saveMessage" parameterType="map">
+            INSERT INTO message (
+             `messageId`,
+             `messageTitle`,
+             `messageContent`,
+             `messageDate`,
+             `isRead`,
+             `receiverId`,
+             `isDelete`
+             )
+             VALUES
+             (uuid(),
+             '教学任务审核通知',
+             '教学任务（教师开课）代写教材',
+             NOW(),
+             '否',
+             (SELECT user.`userId` FROM `user` WHERE typeId = (SELECT teacher.`teacherId` FROM teacher WHERE teacher.`teacherNumber`=#{sessionUserName})),
+             '否')
+    </insert>
+
+
+</mapper>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.StudentDao">
+    <!--查询如何支持项目-->
+    <insert id="saveStudents" parameterType="list">
+        INSERT INTO student
+        (studentId,studentNum,studentName,namePinYin,usedName,studentIcon,studentIDCard,studentGender,
+        studentBirthday,studentNation,studentPolitics,studentPhone,studentEmail,linkMan,
+        linkManPhone,linkManaddress,linkManPostcode,examNumber,province,highSchool,entranceDate,studentGrade,studentCollege,
+        studentMajor, studentClass,studentLevel,studentLength,studentForm,studentSchoolAddress,isDelete)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (uuid(),
+            #{item.studentNum,jdbcType=VARCHAR},
+            #{item.studentName,jdbcType=VARCHAR},
+            #{item.namePinYin,jdbcType=VARCHAR},
+            #{item.usedName,jdbcType=VARCHAR},
+            #{item.studentIcon,jdbcType=VARCHAR},
+            #{item.studentIDCard,jdbcType=VARCHAR},
+            #{item.studentGender,jdbcType=VARCHAR},
+            #{item.studentBirthday,jdbcType=TIMESTAMP},
+            #{item.studentNation,jdbcType=VARCHAR},
+            #{item.studentPolitics,jdbcType=VARCHAR},
+            #{item.studentPhone,jdbcType=VARCHAR},
+            #{item.studentEmail,jdbcType=VARCHAR},
+            #{item.linkMan,jdbcType=VARCHAR},
+            #{item.linkManPhone,jdbcType=VARCHAR},
+            #{item.linkManaddress,jdbcType=VARCHAR},
+            #{item.linkManPostcode,jdbcType=VARCHAR},
+            #{item.examNumber,jdbcType=VARCHAR},
+            #{item.province,jdbcType=VARCHAR},
+            #{item.highSchool,jdbcType=VARCHAR},
+            #{item.entranceDate,jdbcType=TIMESTAMP},
+            #{item.studentGrade,jdbcType=VARCHAR},
+            #{item.studentCollege,jdbcType=VARCHAR},
+            #{item.studentMajor,jdbcType=VARCHAR},
+            #{item.studentClass,jdbcType=VARCHAR},
+            #{item.studentLevel,jdbcType=VARCHAR},
+            #{item.studentLength,jdbcType=VARCHAR},
+            #{item.studentForm,jdbcType=VARCHAR},
+            #{item.studentSchoolAddress,jdbcType=VARCHAR},
+            #{item.isDelete,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+    <insert id="saveUser" parameterType="list">
+        INSERT INTO user
+        (userId,userName,PASSWORD,userEmail, typeName, isNeuNb, typeId, roleId, userStatus)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (uuid(),
+            #{item.studentNum,jdbcType=VARCHAR},
+            ENCODE('e10adc3949ba59abbe56e057f20f883e','371df050-00b3-11e7-829b-00ac2794c53f'),
+            #{item.studentEmail,jdbcType=VARCHAR},
+            '学生',
+            '否',
+            #{item.studentId,jdbcType=VARCHAR},
+            'ebf0cc00-2335-11e7-a910-00ac9c2c0afa',
+            '启用')
+        </foreach>
+    </insert>
+    <!--查询批量导入的数据和数据库中的数据有重复-->
+    <select id="getKeys" parameterType="map" resultType="string">
+        SELECT studentNum FROM student WHERE studentNum IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item.studentNum,jdbcType=VARCHAR}
+        </foreach>
+    </select>
+    <!--查询批量导入的数据和数据库中的数据有重复-->
+    <select id="getId" parameterType="map" resultType="string">
+        SELECT studentId FROM student WHERE studentNum IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item.studentNum,jdbcType=VARCHAR}
+        </foreach>
+    </select>
+    <!--查询批量导入的数据和数据库中的数据有重复-->
+    <select id="getKey" parameterType="map" resultType="string">
+        SELECT userName FROM user WHERE userName IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item.studentNum,jdbcType=VARCHAR}
+        </foreach>
+    </select>
+    <!--查询批量导入的校区和数据库中的数据是否一致-->
+    <select id="getSchools" parameterType="map" resultType="string">
+        select distinct(wordbookValue) from wordbook where wordbookKey='校区'
+    </select>
+    <!--查询批量导入的学院和数据库中的数据是否一致-->
+    <select id="getColleges" parameterType="map" resultType="string">
+        select distinct(wordbookValue) from wordbook where wordbookKey='学院'
+    </select>
+    <!--查询批量导入的专业和数据库中的数据是否一致-->
+    <select id="getMajors" parameterType="map" resultType="string">
+        SELECT `majorName` FROM `major` WHERE majorCollege IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item.studentCollege,jdbcType=VARCHAR}
+        </foreach>
+    </select>
+    <!--查询批量导入的年级和数据库中的数据是否一致-->
+    <select id="getGrades" parameterType="map" resultType="string">
+        select distinct(wordbookValue) from wordbook where wordbookKey='年级'
+    </select>
+    <!--查询批量导入的班级和数据库中的数据是否一致-->
+    <select id="getClasss" parameterType="map" resultType="string">
+        SELECT className FROM class
+    </select>
+    <!--查询批量导入的学习形式和数据库中的数据是否一致-->
+    <select id="getStudys" parameterType="map" resultType="string">
+        select distinct(wordbookValue) from wordbook where wordbookKey='学习形式'
+    </select>
+</mapper>

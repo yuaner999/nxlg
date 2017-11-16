@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.TeachingMaterialsDao">
+    <!--&lt;!&ndash;查询如何支持项目&ndash;&gt;-->
+    <insert id="saveTeachingMaterials" parameterType="list">
+        INSERT INTO teachingmaterials
+        (tmId,name,press,edition,booknumber,price,isdelete)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (uuid(),
+            #{item.name,jdbcType=VARCHAR},
+            #{item.press,jdbcType=VARCHAR},
+            #{item.edition,jdbcType=VARCHAR},
+            #{item.booknumber,jdbcType=VARCHAR},
+            #{item.price,jdbcType=VARCHAR},
+            #{item.isdelete,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+
+    <!--查询批量更新的数据在数据库中是否存在-->
+    <select id="getKeys" parameterType="map" resultType="string">
+        SELECT press,edition,booknumber,price
+        FROM teachingmaterials
+        WHERE (teachingmaterials.name,teachingmaterials.press,teachingmaterials.edition,teachingmaterials.booknumber,teachingmaterials.price,teachingmaterials.isdelete)IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            (#{item.name,jdbcType=VARCHAR},
+            #{item.press,jdbcType=VARCHAR},
+            #{item.edition,jdbcType=VARCHAR},
+            #{item.booknumber,jdbcType=VARCHAR},
+            #{item.price,jdbcType=VARCHAR},
+            '0')
+        </foreach>
+    </select>
+
+</mapper>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="100"/>
+        <property name="maxIdle" value="20"/>
+        <property name="maxWaitMillis" value="1000"/>
+    </bean>
+
+    <bean id = "jedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg index="0" ref="jedisPoolConfig"/>
+        <constructor-arg index="1" value="127.0.0.1"/>
+        <constructor-arg index="2" value="6379" type="int"/>
+        <constructor-arg index="3" value="1000" type="int"/>
+    </bean>
+
+
+    <bean id= "urlMapping" class= "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" >
+        <property name="mappings">
+            <props>
+                <prop key="/jsons/*.form">jsAPIController</prop>
+                <prop key="/refreshjsapi.form">jsEngineRefreshController</prop>
+                <prop key="/views/*.form">jspPageController</prop>
+            </props>
+        </property>
+        <property name="interceptors">
+            <list>
+            </list>
+        </property>
+        <property name= "order" value= "0" />
+    </bean>
+
+    <bean id="jspPageController" class="com.liuzg.jsweb.controllers.JspPageController"/>
+
+    <bean id="jsAPIController" class="com.liuzg.jsweb.spring.JsEngineController" >
+        <property name="scanner" ref="jsApiScanner"/>
+        <property name="debug" value="true"/>
+        <property name="urlEndWith" value=".form"/>
+    </bean>
+
+    <bean id="jsEngineRefreshController" class="com.liuzg.jsweb.spring.JsEngineRefreshController">
+        <property name="scanner" ref="jsApiScanner"/>
+    </bean>
+
+    <bean id="jsApiScanner" class="com.liuzg.jsweb.spring.NashornJsApiScanner" init-method="init" scope="singleton" >
+        <property name="jsLibRoot" value="WEB-INF/jslibs"/>
+        <property name="jsonScriptRoot" value="WEB-INF/jsapis"/>
+        <property name="licenseKey" value="E4900417CF38712B1B63"/>
+        <property name="plugins">
+            <map>
+                <entry key="jdbc" >
+                    <bean class="com.liuzg.jsweb.engineplugins.JdbcPlugInForNashorn">
+                    </bean>
+                </entry>
+                <entry key="servlet">
+                    <bean class="com.liuzg.jsweb.engineplugins.ServletPlugIn"/>
+                </entry>
+                <entry key="utils">
+                    <bean class="com.liuzg.jsweb.engineplugins.UtilsPlugIn" >
+                        <property name="jsApiScanner" ref="jsApiScanner"/>
+                    </bean>
+                </entry>
+                <entry key="redis">
+                    <bean class="com.liuzg.jsweb.engineplugins.RedisPlugIn">
+                        <property name="jedispool" ref="jedisPool" />
+                    </bean>
+                </entry>
+                <entry key="file">
+                    <bean class="com.liuzg.jsweb.engineplugins.FileSysPlugIn"/>
+                </entry>
+                <entry key="velocity">
+                    <bean class="com.liuzg.jsweb.engineplugins.VelocityPlugIn"/>
+                </entry>
+                <entry key="test">
+                    <bean class="com.liuzg.jsweb.engineplugins.TestPlugIn"/>
+                </entry>
+                <entry key="xml">
+                    <bean class="com.jsweb.plugins.XmlPlugIn"/>
+                </entry>
+                <entry key="text">
+                    <bean class="com.jsweb.plugins.TextPlugIn"/>
+                </entry>
+                <entry key="net">
+                    <bean class="com.jsweb.plugins.NetPlugIn"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="threadPoolExecutor" class="java.util.concurrent.ScheduledThreadPoolExecutor">
+        <constructor-arg name="corePoolSize" value="10"/>
+        <property name="maximumPoolSize" value="100"/>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="springmvc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/springweb/spring-web-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/springweb/spring-webmvc-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/springweb/spring-webmvc-portlet-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/springweb/spring-websocket-4.3.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

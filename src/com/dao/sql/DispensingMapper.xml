@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.DispensingDao">
+    <!--* 这是同意调剂的开课未满课程(总共要调剂的人数)-->
+    <select id="gettotaltiaojipeople" resultType="map" parameterType="string">
+       SELECT COUNT(studentId) AS nowpeople,courseId FROM stuchoosecourse WHERE  iscomfirm='0' AND isautotiaoji='1' AND term=#{0}
+       GROUP BY courseId
+    </select>
+    <select id="getmajorname" resultType="map" parameterType="string">
+        SELECT majorName FROM major WHERE  majorId=#{0}
+    </select>
+    <!--* 这是1内已开课程班级及其剩余人数-->
+    <select id="getkaikeleft" resultType="map" parameterType="string">
+         SELECT  `teachtask`.`tc_studentnum` , `teachtask`.`tc_numrange`, `teachtask`.`tc_courseid`, `teachtask`.`tc_class`,`teachtask`.`tc_id`,teacher.teacherName,
+         COUNT(stuchoosecourse.studentId) AS totalpeople,(tc_numrange-COUNT(stuchoosecourse.studentId)) AS leftpeople,tc_thweek_start,tc_thweek_end,tc_teachodd
+         FROM `nxlg`.`teachtask`  LEFT JOIN `nxlg`.`stuchoosecourse`
+         ON (`stuchoosecourse`.`tc_id` = `teachtask`.`tc_id`)
+         LEFT JOIN `nxlg`.`teacher` ON (`teacher`.teacherId=teachtask.tc_classteacherid)
+         AND term=#{1}AND tc_semester=#{1}
+         WHERE tc_courseid=#{0} GROUP BY teachtask.tc_id HAVING totalpeople &gt;=tc_studentnum ORDER BY leftpeople DESC;
+    </select>
+    <!--* 第i个班的人要调到2.内的班级-->
+    <select id="getDispensingpeople1" resultType="map" parameterType="string">
+        SELECT a.`studentId`,a.scc,a.`courseId`,a.`class`,a.tc_id ,a.majorId,a.`studentMajor`,a.`otherMajor`,a.studentGrade
+         FROM(
+            SELECT stuchoosecourse.`studentId`,scc,stuchoosecourse.`courseId`,stuchoosecourse.`class`,stuchoosecourse.tc_id ,
+            stuchoosecourse.majorId,student.`studentMajor`,student.`otherMajor`,student.studentGrade
+            FROM `nxlg`.`stuchoosecourse`
+            LEFT JOIN `nxlg`.`teachtask`  ON (`stuchoosecourse`.`tc_id` = `teachtask`.`tc_id`)
+            LEFT JOIN tcmajor ON (`teachtask`.`tc_id`=tcmajor.`tcm_tc_id`)
+            LEFT JOIN student ON (student.studentId=stuchoosecourse.studentId AND student.studentGrade=tcmajor.tcm_grade )
+            LEFT JOIN major ON (major.`majorName`=student.`studentMajor` AND major.majorId=tcmajor.tcm_majorid)
+            WHERE ( major.majorId,studentGrade ) IN ( SELECT tcm_majorid,tcm_grade FROM tcmajor WHERE tcm_tc_id=#{2} )
+             AND iscomfirm='0' AND isautotiaoji='1'
+             AND courseId=#{0}     AND   term=#{1}
+             AND `nxlg`.`major`.`checkStatus` = '已通过' AND (ISNULL(`nxlg`.`major`.`isDelete`) OR (`nxlg`.`major`.`isDelete` = '否'))
+            UNION
+            SELECT  stuchoosecourse.`studentId`,scc,stuchoosecourse.`courseId`,stuchoosecourse.`class`,stuchoosecourse.tc_id,
+             stuchoosecourse.majorId,student.`studentMajor` ,student.`otherMajor`,student.studentGrade
+            FROM `nxlg`.`stuchoosecourse`
+            LEFT JOIN student ON student.studentId=stuchoosecourse.studentId
+            LEFT JOIN major ON major.`majorId`=stuchoosecourse.`majorId`
+            WHERE student.`studentMajor` !=major.`majorName`
+            AND (student.`otherMajor`!= major.`majorName` OR (student.`otherMajor`IS NULL) OR  student.`otherMajor`='')
+            AND  term=#{1} AND courseId=#{0} AND iscomfirm='0' AND isautotiaoji='1'
+            AND  student.studentGrade IN ( SELECT tcm_grade FROM tcmajor   WHERE tcm_tc_id=#{2} )
+            AND (`nxlg`.`major`.`checkStatus` = '已通过') AND (ISNULL(`nxlg`.`major`.`isDelete`) OR (`nxlg`.`major`.`isDelete` = '否'))
+         ) a
+         ORDER BY a.`studentMajor` IN (
+         SELECT major.`majorName` FROM tcmajor
+         LEFT JOIN major ON major.`majorId`=tcmajor.`tcm_majorid`
+         WHERE tcm_tc_id=#{2}
+         ) DESC,a.`otherMajor` IN (
+         SELECT  major.`majorName` FROM tcmajor LEFT JOIN major ON major.`majorId`=tcmajor.`tcm_majorid`
+         WHERE tcm_tc_id=#{2} ) DESC
+    </select>
+    <select id="gettime" resultType="map" parameterType="string">
+        SELECT  arrangelesson.al_timeweek,al_timepitch,teachtask.tc_courseid,tc_class
+	   FROM arrangelesson left join teachtask on teachtask.tc_id =arrangelesson.tc_id
+	   WHERE tc_courseid=#{0}  AND tc_class=#{1} AND tc_semester=#{2} AND teachtask.tc_id=#{3}
+    </select>
+    <select id="stutime" resultType="map" parameterType="string">
+      SELECT `teachtask`.`tc_thweek_start`,`teachtask`.`tc_thweek_end`, `teachtask`.`tc_teachodd`, `teachtask`.`tc_id` , `arrangelesson`.`al_timeweek`
+      , `arrangelesson`.`al_timepitch`, `stuchoosecourse`.`term` , `stuchoosecourse`.`courseId`,stuchoosecourse.chineseName
+       FROM `nxlg`.`stuchoosecourse`
+      LEFT JOIN `nxlg`.`teachtask`
+      ON (`stuchoosecourse`.`tc_id` = `teachtask`.`tc_id`)
+      LEFT JOIN `nxlg`.`arrangelesson`
+      ON (`teachtask`.`tc_id` = `arrangelesson`.`tc_id`)
+      where studentId=#{0}  and stuchoosecourse.term=#{1} AND iscomfirm='1'
+    </select>
+    <!--* 调剂课程-->
+    <update id="DispensingCourse" parameterType="string">
+        UPDATE stuchoosecourse SET class=#{0},iscomfirm='1',tc_id=#{4},teacherName=#{5} WHERE studentId=#{1} AND courseId=#{2} and term=#{3}
+    </update>
+
+    <!--查一下调剂后还剩多少人 -->
+    <select id="getDispensingtotalpeople" resultType="map" parameterType="string">
+       SELECT COUNT(studentId) as people,courseId,class FROM stuchoosecourse WHERE iscomfirm='0' AND isautotiaoji='1' AND term=#{1} AND courseId=#{0};
+    </select>
+    <!--6.查一下调剂后还剩多少人 -->
+    <select id="getunkaikecha" resultType="map" parameterType="string">
+        SELECT  `teachtask`.`tc_studentnum` , `teachtask`.`tc_numrange`, `teachtask`.`tc_courseid`, `teachtask`.`tc_class`, COUNT(stuchoosecourse.studentId) AS totalpeople,
+        (tc_numrange-tc_studentnum) AS cha,tc_thweek_start,tc_thweek_end,tc_teachodd,`teachtask`.`tc_id`,teacher.teacherName
+        FROM `nxlg`.`teachtask`
+        LEFT JOIN `nxlg`.`teacher` ON (`teacher`.teacherId=teachtask.tc_classteacherid)
+        LEFT JOIN `nxlg`.`stuchoosecourse` ON `stuchoosecourse`.`tc_id` = `teachtask`.`tc_id` AND term=#{1}  AND tc_semester=#{1}
+        WHERE tc_courseid=#{0} GROUP BY teachtask.tc_id HAVING totalpeople &lt;tc_studentnum ORDER BY tc_studentnum;
+    </select>
+    <insert id="insertmessage" parameterType="string">
+        INSERT INTO `nxlg`.`message` (`messageId`, `messageTitle`,`messageContent`,`messageDate`,`isRead`,`receiverId`,`isDelete`)
+        VALUES(UUID(),'调剂通知',#{1},NOW(),'否',#{0},'否') ;
+    </insert>
+    <insert id="insertmessage2" parameterType="string">
+        INSERT INTO `nxlg`.`message` (`messageId`, `messageTitle`,`messageContent`,`messageDate`,`isRead`,`receiverId`,`isDelete`)
+        VALUES(UUID(),'调剂通知',#{1},NOW(),'否',#{0},'否') ;
+    </insert>
+    <select id="Dispensingtotalpeople5" resultType="map" parameterType="string">
+        SELECT stuchoosecourse.`studentId` FROM stuchoosecourse WHERE iscomfirm='0' AND isautotiaoji='1' AND term=#{0}
+    </select>
+</mapper>

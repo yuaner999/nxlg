@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="j2ee">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/j2ee/javax.transaction.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

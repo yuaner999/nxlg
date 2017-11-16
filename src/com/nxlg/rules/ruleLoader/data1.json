@@ -1,0 +1,4 @@
+{
+  "ClassName": "com.nxlg.rules.RoomCapacityRule",
+  "punishValue":800
+}

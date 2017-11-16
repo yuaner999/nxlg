@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+
+    <!--内存数据库-->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="100"/>
+        <property name="maxIdle" value="20"/>
+        <property name="maxWaitMillis" value="1000"/>
+    </bean>
+    <bean id = "jedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg index="0" ref="jedisPoolConfig"/>
+        <constructor-arg index="1" value="127.0.0.1"/>
+        <constructor-arg index="2" value="6379" type="int"/>
+        <constructor-arg index="3" value="1000" type="int"/>
+    </bean>
+    <!--数据连接池-->
+    <bean id="jdbcdataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="shutdown">
+        <constructor-arg>
+            <bean class="com.zaxxer.hikari.HikariConfig">
+                <property name="autoCommit" value="false"/>
+                <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                <!--<property name="jdbcUrl" value="jdbc:mysql://192.168.0.72/nxlg?allowMultiQueries=true"/>-->
+                <!--<property name="username" value="root"/>-->
+                <!--<property name="password" value="123456"/>-->
+                <!--<property name="jdbcUrl" value="jdbc:mysql://192.168.0.166/nxlg?allowMultiQueries=true"/>-->
+                <!--<property name="username" value="neunb"/>-->
+                <!--<property name="password" value="239Mysql_neunb"/>-->
+                <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1/nxlg?allowMultiQueries=true"/>
+                <property name="username" value="root"/>
+                <property name="connectionTestQuery" value="SELECT 1;"/>
+                <property name="connectionTimeout" value="3000"/>
+                <property name="idleTimeout" value="600000"/>
+                <property name="maxLifetime" value="1800000"/>
+                <property name="maximumPoolSize" value="10"/>
+                <property name="minimumIdle" value="1"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    <!--文件上传下载Start-->
+    <bean id="fileDownloader" class="com.liuzg.jsweb.controllers.FileDownloader">
+        <property name="filenameVar" value="filename"/>
+        <property name="uploadFolder" value="upload/files" />
+        <property name="relativePath" value="true"/>
+    </bean>
+
+    <bean id="fileUploader" class="com.liuzg.jsweb.controllers.FileUploader">
+        <property name="uploadFolder" value="upload/files" />
+        <property name="relativePath" value="true"/>
+    </bean>
+
+    <bean id="imgdown" class="com.liuzg.jsweb.controllers.FileDownloader">
+        <property name="filenameVar" value="imgid"/>
+        <property name="contentType" value="image/jpeg"/>
+        <property name="relativePath" value="true"/>
+        <property name="uploadFolder" value="upload/images" />
+    </bean>
+
+    <bean id="imgupload" class="com.liuzg.jsweb.controllers.FileUploader">
+        <property name="relativePath" value="true"/>
+        <property name="uploadFolder" value="upload/images" />
+    </bean>
+    <!--文件上上传下载End-->
+
+    <bean id="coursearrangecontroller" class="com.controllers.CourseArrangementController">
+        <property name="courseArrangeTask" ref="courseArrangeTask"/>
+        <property name="dataSource" ref="jdbcdataSource"/>
+        <property name="threadPoolExecutor" ref="threadPoolExecutor"/>
+    </bean>
+    <bean id="coursearrangestatuscontroller" class="com.controllers.CourseArrangementStatusController">
+        <property name="dataSource" ref="jdbcdataSource"/>
+    </bean>
+    <bean id="CourseArrangeTask" class="com.nxlg.CourseArrangeTask">
+        <property name="dataSource" ref="jdbcdataSource"/>
+    </bean>
+
+    <!--网络映射-->
+    <bean id= "urlMapping" class= "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" >
+        <property name="mappings">
+            <props>
+                <prop key="/*.form">jsAPIController</prop>
+                <prop key="/views/*/*.form">jspPageController</prop>
+                <prop key="/views/*.form">jspPageController</prop>
+                <prop key="/refreshjsapi.form">jsEngineRefreshController</prop>
+                <prop key="/filedown.form">fileDownloader</prop>
+                <prop key="/fileupload.form">fileUploader</prop>
+                <prop key="/imgdown.form">imgdown</prop>
+                <prop key="/imgupload.form">imgupload</prop>
+                <prop key="/arrangecourse.form">coursearrangecontroller</prop>
+                <prop key="/arrangecoursestatus.form">coursearrangestatuscontroller</prop>
+            </props>
+        </property>
+        <!--拦截器-->
+        <!--<property name="interceptors">-->
+            <!--<list>-->
+                <!--<bean class="com.liuzg.jsweb.interceptors.Interceptor">-->
+                    <!--<property name="forbiddenloginparameters" >-->
+                        <!--<value>login</value>-->
+                    <!--</property>-->
+                    <!--<property name="isAllow">-->
+                        <!--<bean class="com.liuzg.jsweb.interceptors.IsAllow">-->
+                            <!--<property name="searchMenu">-->
+                                <!--<bean class="com.liuzg.jsweb.interceptors.JdbcGetMenuPermission">-->
+                                    <!--<property name="dataSource" ref="jdbcdataSource"/>-->
+                                <!--</bean>-->
+                            <!--</property>-->
+                        <!--</bean>-->
+                    <!--</property>-->
+                <!--</bean>-->
+            <!--</list>-->
+        <!--</property>-->
+        <property name= "order" value= "0" />
+    </bean>
+    <!--JSP映射-->
+    <bean id="jspPageController" class="com.liuzg.jsweb.controllers.JspPageController"/>
+    <bean id="jsAPIController" class="com.liuzg.jsweb.spring.JsEngineController" >
+        <property name="scanner" ref="jsApiScanner"/>
+        <property name="debug" value="true"/>
+        <property name="urlEndWith" value=".form"/>
+    </bean>
+    <bean id="jsEngineRefreshController" class="com.liuzg.jsweb.spring.JsEngineRefreshController">
+        <property name="scanner" ref="jsApiScanner"/>
+    </bean>
+    <bean id="jsApiScanner" class="com.liuzg.jsweb.spring.NashornJsApiScanner" init-method="init" scope="singleton" >
+        <property name="jsLibRoot" value="WEB-INF/jslibs"/>
+        <property name="jsonScriptRoot" value="WEB-INF/jsapis"/>
+        <property name="licenseKey" value="E4900417CF38712B1B63"/>
+        <property name="plugins">
+            <map>
+                <entry key="jdbc" >
+                    <bean class="com.liuzg.jsweb.engineplugins.JdbcPlugInForNashorn">
+                        <property name="dataSource" ref="jdbcdataSource"/>
+                    </bean>
+                </entry>
+                <entry key="servlet">
+                    <bean class="com.liuzg.jsweb.engineplugins.ServletPlugIn"/>
+                </entry>
+                <entry key="utils">
+                    <bean class="com.liuzg.jsweb.engineplugins.UtilsPlugIn" >
+                        <property name="jsApiScanner" ref="jsApiScanner"/>
+                    </bean>
+                </entry>
+                <entry key="redis">
+                    <bean class="com.liuzg.jsweb.engineplugins.RedisPlugIn">
+                        <property name="jedispool" ref="jedisPool" />
+                    </bean>
+                </entry>
+                <entry key="file">
+                    <bean class="com.liuzg.jsweb.engineplugins.FileSysPlugIn"/>
+                </entry>
+                <entry key="velocity">
+                    <bean class="com.liuzg.jsweb.engineplugins.VelocityPlugIn"/>
+                </entry>
+                <entry key="Rectangle">
+                    <bean class="com.liuzg.jsweb.engineplugins.TestPlugIn"/>
+                </entry>
+                <!--<entry key="xml">-->
+                    <!--<bean class="com.jsweb.plugins.XmlPlugIn"/>-->
+                <!--</entry>-->
+                <entry key="text">
+                    <bean class="com.jsweb.plugins.TextPlugIn"/>
+                </entry>
+                <entry key="net">
+                    <bean class="com.jsweb.plugins.NetPlugIn"/>
+                </entry>
+                <entry key="email">
+                    <bean class="com.jsweb.plugins.EmailPlugIn"/>
+                </entry>
+                <entry key="webchinesesms">
+                    <bean class="com.jsweb.plugins.SmsPlugIn">
+                        <property name="serviceUrl" value="http://utf8.sms.webchinese.cn"/>
+                        <property name="uid" value="neunb"/>
+                        <property name="key" value="f179e2fb985f6dae326f"/>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <bean id="isAllow" class="com.zaxxer.hikari.HikariDataSource"/>
+
+    <!--注册拦截器-->
+<!--    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/*"/>
+            <bean class="com.liuzg.jsweb.interceptors.Interceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>-->
+</beans>

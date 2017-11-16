@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.StudentPaymentDao">
+    <!--&lt;!&ndash;查询如何支持项目&ndash;&gt;-->
+
+    <!--更新缴费信息-->
+    <update id="saveStudentPayments" parameterType="list">
+        <foreach collection="list" item="item" separator=";">
+            UPDATE `paymentstatus` SET
+            realPay =  #{item.realPay,jdbcType=VARCHAR},
+            status =  #{item.status,jdbcType=VARCHAR},
+            is_auto = #{item.is_auto,jdbcType=VARCHAR}
+            WHERE `paymentstatusId` = #{item.paymentstatusId,jdbcType=VARCHAR}
+        </foreach>
+    </update>
+
+    <!--查询批量更新的数据在数据库中是否存在-->
+    <select id="getKeys" parameterType="map" resultType="string">
+        SELECT paymentstatus.paymentstatusId,student.studentId,paymentstatus.semester FROM paymentstatus LEFT JOIN student ON(student.studentId=paymentstatus.studentId) WHERE (student.studentNum,paymentstatus.semester) IN
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            (#{item.studentNum,jdbcType=VARCHAR},
+            #{item.semester,jdbcType=VARCHAR})
+        </foreach>
+    </select>
+
+</mapper>

@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NXLG:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NXLG_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NXLG/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NXLG" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring" />
+          <element id="library" level="project" name="springmvc" />
+          <element id="library" level="project" name="jedis" />
+          <element id="library" level="project" name="jackson" />
+          <element id="library" level="project" name="hikaricp" />
+          <element id="library" level="project" name="dom4j-1.6.1" />
+          <element id="library" level="project" name="apachecommons" />
+          <element id="library" level="project" name="json-20140107" />
+          <element id="library" level="project" name="j2ee" />
+          <element id="library" level="project" name="commons-fileupload-1.3.1" />
+          <element id="library" level="project" name="mail-1.4" />
+          <element id="library" level="project" name="commons-collections-3.2" />
+          <element id="library" level="project" name="jsqlparser-0.9.5 (2)" />
+          <element id="library" level="project" name="json-lib-2.2.2-jdk15" />
+          <element id="library" level="project" name="commons-beanutils-1.7.0" />
+          <element id="library" level="project" name="ezmorph-1.0.4" />
+          <element id="library" level="project" name="ecj-4.5.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

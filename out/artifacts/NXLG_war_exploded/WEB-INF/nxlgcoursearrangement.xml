@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="courseArrangeTask" class="com.nxlg.CourseArrangeTask">
+        <property name="courseArrangementAlgorithm" ref="courseArrangementAlgorithm"/>
+        <property name="rulesLoader" ref="defaultRulesLoader"/>
+        <property name="tCcRSwLoader" ref="defaultTCcRSwLoader"/>
+    </bean>
+
+    <!--加载排课数据-->
+    <!--<bean id="defaultTCcRSwLoader" class="com.nxlg.dataloader.FakeTCcRSwLoader"/>-->
+    <bean id="defaultTCcRSwLoader" class="com.nxlg.dataloader.DbTCcRSwLoader">
+        <property name="dataSource" ref="jdbcdataSource"/>
+    </bean>
+
+    <!--加载排课规则数据-->
+    <!--<bean id="defaultRulesLoader" class="com.nxlg.rulesloader.FakeRulesLoader"/>-->
+    <bean id="defaultRulesLoader" class="com.nxlg.rulesloader.DbJsonRulesLoader">
+        <property name="dataSource" ref="jdbcdataSource"/>
+    </bean>
+
+    <!--排课算法参数设置-->
+    <bean id="courseArrangementAlgorithm" class="com.nxlg.algorithm.CourseArrangementAlgorithm">
+        <property name="elitismRate" value="0.1"/>  <!--复制率-->
+        <property name="populationLimit" value="100"/>   <!--变异率-->
+        <property name="weekdaycount" value="6"/>  <!--天-->
+        <property name="daySectionCount" value="5"/> <!--节-->
+        <property name="num_generation" value="20"/>  <!--迭代次数-->
+        <property name="selectionPolicy" value="21"/>  <!--选择策略-->
+        <property name="mutationRate" value="0.1"/>   <!--变异率-->
+        <property name="crossoverRate" value="1"/>     <!--交叉方式-->
+    </bean>
+
+    <bean id="threadPoolExecutor" class="java.util.concurrent.ScheduledThreadPoolExecutor" scope="singleton" destroy-method="shutdown">
+        <constructor-arg name="corePoolSize" value="10"/>
+        <property name="maximumPoolSize" value="100"/>
+    </bean>
+
+</beans>

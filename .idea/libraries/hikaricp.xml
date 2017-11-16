@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="hikaricp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/HikariCP-java6-2.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/play-hikaricp_2.11-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/scala-library-2.11.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/scala-xml_2.11-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hikaricp/twirl-api_2.11-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

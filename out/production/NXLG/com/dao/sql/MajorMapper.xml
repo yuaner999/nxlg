@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.dao.interfaces.MajorDao">
+    <!--查询如何搜索的专业-->
+    <select id="getMajorlist" parameterType="map" resultType="map">
+  select majorCollege,internationalNum,internationalCode,majorCode,majorName,subject,level,length,settingYear,majorStatus,checkStatus,
+  checkType,checkMan,DATE_FORMAT(checkDate,'%Y-%m-%d %H:%i:%s') as checkDate from major WHERE checkStatus="已通过"AND (isDelete is null OR isDelete="否") AND (majorCollege LIKE CONCAT('%',#{1},'%') OR majorName LIKE CONCAT('%',#{1},'%') OR subject LIKE CONCAT('%',#{1},'%') OR checkType LIKE CONCAT('%',#{1},'%') OR majorStatus LIKE CONCAT('%',#{1},'%'))
+  </select>
+
+    <!--查询课程-->
+    <!--select courseCode,chineseName,englishName,assumeUnit,courseCategory_3,courseCategory_4,courseCategory_5,totalCredit,theoreticalCredit,practiceCredit,teachingTime,
+    experimentalTime,machineTime,otherTime,totalTime,courseStatus,checkStatus from course WHERE checkStatus="已通过"-->
+    <select id="getCourselist" parameterType="map" resultType="map">
+
+        SELECT
+         `course`.*,
+         `teacher`.teacherName as teacherName,
+         `teachingmaterials`.name as teachingmaterialname
+         , `teacher`.*
+         , `teachingmaterials`.*
+         FROM
+         `nxlg`.`course`
+         LEFT JOIN `nxlg`.`teacher`
+         ON (`course`.`mainteacherid` = `teacher`.`teacherId`)
+         LEFT JOIN `nxlg`.`teachingmaterials`
+         ON (`course`.`coursebookid` = `teachingmaterials`.`tmId`)
+        WHERE (courseCode LIKE CONCAT('%',#{1},'%') OR chineseName LIKE CONCAT('%',#{1},'%'))
+        and `course`.`assumeUnit`=#{2}
+        and (checkStatus="已通过")
+        order by convert(chineseName USING gbk) COLLATE gbk_chinese_ci asc,convert(checkStatus USING gbk) COLLATE gbk_chinese_ci desc
+    </select>
+
+    <!--课程审核现有课程-->
+    <select id="getNowCourselist" parameterType="map" resultType="map">
+        SELECT
+        `course`.*,
+        `teacher`.teacherName as teacherName,
+        `teachingmaterials`.name as teachingmaterialname
+        , `teacher`.*
+        , `teachingmaterials`.*
+        FROM
+        `nxlg`.`course`
+        LEFT JOIN `nxlg`.`teacher`
+        ON (`course`.`mainteacherid` = `teacher`.`teacherId`)
+        LEFT JOIN `nxlg`.`teachingmaterials`
+        ON (`course`.`coursebookid` = `teachingmaterials`.`tmId`)
+        WHERE (courseCode LIKE CONCAT('%',#{1},'%') OR chineseName LIKE CONCAT('%',#{1},'%'))
+        and (checkStatus="已通过")
+        order by convert(chineseName USING gbk) COLLATE gbk_chinese_ci asc,convert(checkStatus USING gbk) COLLATE gbk_chinese_ci desc
+    </select>
+
+    <!--学生查询课表-->
+    <select id="getArgmCourse" parameterType="java.lang.String" resultType="map">
+        SELECT
+        `user`.`userId`,
+        `user`.`typeId`,
+        `arrangelesson`.*,
+        `arrangecourse`.*,
+        `teacher`.`teacherName`,
+        `stuchoosecourse`.`chineseName`,
+        `teachtask`.`tc_thweek_start`,
+        `teachtask`.`tc_thweek_end`,
+        `teachtask`.`tc_class`,
+        `teachtask`.`tc_teachodd`
+        FROM
+        `user`
+        LEFT JOIN `student`
+        ON (`student`.`studentId`=`user`.`typeId`)
+        LEFT JOIN `stuchoosecourse`
+        ON (`stuchoosecourse`.`studentId`=`student`.`studentId`)
+        LEFT JOIN `teachtask`
+        ON (`stuchoosecourse`.`tc_id`=`teachtask`.`tc_id`)
+        LEFT JOIN `arrangelesson`
+        ON (`teachtask`.`tc_id`=`arrangelesson`.`tc_id`)
+        LEFT JOIN `arrangecourse`
+        ON (`arrangelesson`.`acId`=`arrangecourse`.`acId`)
+        LEFT JOIN `nxlg`.`teacher`
+        ON (`teacher`.`teacherId`=`teachtask`.`tc_classteacherid`)
+        WHERE
+        userId=#{0} AND is_now=1 AND iscomfirm=1 AND (scc_status!='退课通过' OR scc_status IS NULL) AND (#{1}=0 OR tc_teachodd='无' OR tc_teachodd=#{2}) AND (#{1}=0 OR (tc_thweek_start&lt;= #{1} AND #{1}&lt;=tc_thweek_end))
+    </select>
+
+    <!--根据教师查询课表-->
+    <select id="getArgmCourseByTh" parameterType="java.lang.String" resultType="map">
+        SELECT
+        `arrangelesson`.*,
+        `course`.*,
+        `teachtask`.*,
+        `teacher`.*
+        FROM
+        `nxlg`.`arrangelesson`
+        LEFT JOIN `nxlg`.`course`
+        ON (`arrangelesson`.`courseId`=`course`.`courseId`)
+        LEFT JOIN `nxlg`.`teachtask`
+        ON (`teachtask`.`tc_id`=`arrangelesson`.`tc_id`)
+        LEFT JOIN `nxlg`.`teacher`
+        ON (`teacher`.`teacherId`=`teachtask`.`tc_classteacherid`)
+        LEFT JOIN `nxlg`.`arrangecourse`
+        ON (`arrangelesson`.`acId`=`arrangecourse`.`acId`)
+        WHERE
+        `is_now`=1 AND `teacherId`=#{0} AND (tc_teachodd='无' OR #{1}=0  OR tc_teachodd=#{2}) AND (#{1}=0 OR (tc_thweek_start &lt;=#{1} AND #{1}&lt;=tc_thweek_end))
+    </select>
+
+    <!--根据教室查询课表-->
+    <select id="getArgmCourseByCr" parameterType="java.lang.String" resultType="map">
+        SELECT
+         arrangelesson.classroomName,
+         arrangelesson.classroomId,
+         arrangelesson.al_timeweek,
+         arrangelesson.al_timepitch,
+         course.chineseName,
+         teachtask.tc_thweek_start,
+         teachtask.tc_thweek_end,
+         teacher.teacherName,
+         teachtask.tc_class,
+         teachtask.tc_teachodd
+         FROM
+         arrangelesson
+         LEFT JOIN course
+         ON arrangelesson.courseId=course.courseId
+         LEFT JOIN teachtask
+         ON teachtask.tc_id=arrangelesson.tc_id
+         LEFT JOIN teacher
+         ON teacher.teacherId=teachtask.tc_classteacherid
+         LEFT JOIN arrangecourse
+         ON arrangelesson.acId=arrangecourse.acId
+         WHERE
+        is_now=1 AND  classroomId=#{0} AND (tc_teachodd='无' OR #{1}=0  OR tc_teachodd=#{2}) AND (#{1}=0 OR (tc_thweek_start &lt;=#{1} AND #{1}&lt;=tc_thweek_end))
+    </select>
+    <!--查询教材预购信息-->
+    <select id="getBeforeBuyingInfo" parameterType="java.lang.String" resultType="map">
+        SELECT `name`,SUM(booktotalnum) as booktotalnum FROM bookdistribution_info
+        <where>
+            <if test="collegeName != null and collegeName != '' ">
+                AND   collegeName =#{collegeName}
+            </if>
+            <if test="majorName != null and majorName != '' ">
+                AND   majorName =#{majorName}
+            </if>
+            <if test="className != null and className != '' ">
+                AND   className =#{className}
+            </if>
+        </where>
+        GROUP BY bookid
+    </select>
+    <!--退课通过学生信息-->
+    <select id="exportWithdrawCourseInfo" parameterType="java.lang.String" resultType="map">
+        SELECT * from withdrawcourse_info
+        <where>
+            1=1
+            <if test="searchStr != null and searchStr != '' ">
+                AND   studentName LIKE CONCAT('%',#{searchStr},'%') or `studentNum` LIKE CONCAT('%',#{searchStr},'%')
+            </if>
+            <if test="course != null and course != '' ">
+                AND  courseId=#{course}
+            </if>
+            <if test="semester != null and semester != '' ">
+                AND   term LIKE CONCAT('%',#{semester},'%')
+            </if>
+            <if test="major != null and major != '' ">
+                AND   majorId=#{major}
+            </if>
+        </where>
+        and `iscomfirm` = "1" and `scc_status` = "退课通过"
+    </select>
+    <!--开课课程信息表-->
+    <select id="exportqueryTerraceCourse" parameterType="java.lang.String" resultType="map">
+        SELECT
+        `majorterracecourse`.*,`major`.*,`terrace`.*,`course`.*
+        FROM
+        `nxlg`.`majorterracecourse`
+        LEFT JOIN `major`
+        ON (`majorterracecourse`.`majorId` = `major`.`majorId`)
+        LEFT JOIN `terrace`
+        ON (`majorterracecourse`.`terraceId` = `terrace`.`terraceId`)
+        LEFT JOIN `course`
+        ON (`majorterracecourse`.`courseId` = `course`.`courseId`)
+        <where>
+            (`majorterracecourse`.mtc_isDelete is null or `majorterracecourse`.mtc_isDelete="否")
+            <if  test="collegeName != null and collegeName != '' ">
+                and majorCollege=#{collegeName}
+            </if>
+            <if test="majorName != null and majorName != '' ">
+               and major.majorId=#{majorName}
+            </if>
+            <if test="terraceName != null and terraceName != '' ">
+                AND   terrace.terraceId=#{terraceName}
+            </if>
+            <if test="termName != null and termName != '' ">
+                AND   mtc_courseTerm like concat('%',#{termName},'%')
+            </if>
+            <if test="termName = null or termName = '' ">
+                AND   mtc_courseTerm IN(SELECT wordbookValue FROM wordbook WHERE wordbookKey='当前学期' )
+            </if>
+        </where>
+    </select>
+    <!--空闲教师信息表-->
+    <select id="exportUnuseTeacherInfo" parameterType="java.lang.String" resultType="map">
+        SELECT
+        *,CONCAT(spareTime,'课时') AS spareTimes,CONCAT(mostClasses,'节') AS mostClassess
+        FROM
+        `teacher`
+        WHERE
+        `teacher`.`teacherId` NOT IN
+        (
+        SELECT `checkth`.`teacherId`
+        FROM `checkth`
+        WHERE
+        (`checkth`.`al_timeweek`=#{timeweek})
+        AND (`checkth`.`al_timepitch`=#{timepitch})
+        AND (`checkth`.`tc_thweek_start` &lt;= #{teachweek} AND `checkth`.`tc_thweek_end`>=#{teachweek})
+        AND(`checkth`.`tc_teachodd`!=#{teachodd})
+        )
+        and `teacher`.`status` != '离职'
+    </select>
+    <!--空闲教室信息表-->
+    <select id="exportUnuseClassroomInfo" parameterType="java.lang.String" resultType="map">
+        SELECT
+        *
+        FROM
+        classroom
+        WHERE
+        classroom.`classroomId` NOT IN
+        (
+        SELECT arrangelesson.`classroomId`
+        FROM
+        arrangelesson
+        LEFT JOIN `nxlg`.`teachtask`
+        ON (`teachtask`.`tc_id`=`arrangelesson`.`tc_id`)
+        LEFT JOIN `nxlg`.`arrangecourse`
+        ON (`arrangecourse`.`acId`=`arrangelesson`.`acId`)
+        WHERE
+        is_now=1
+        AND
+        (
+        (`al_timeweek`=#{timeweek})
+        AND (`al_timepitch`=#{timepitch})
+        AND (`tc_thweek_start` &lt;=#{teachweek} AND `tc_thweek_end` &gt;=#{teachweek})
+        AND(`tc_teachodd`!=#{teachodd})
+        )
+        )
+    </select>
+    <!--班级学生信息表-->
+    <select id="exportClassStudentInfo" parameterType="map" resultType="map">
+            SELECT
+            `student`.`studentNum`,
+            `student`.`studentName`,
+            `student`.`studentGender`,
+            `student`.`studentPhone`,
+            `student`.`studentEmail`,
+            `student`.`studentGrade`,
+            `student`.`studentCollege`,
+            `student`.`studentMajor`,
+            `student`.`studentClass`,
+            `student`.`studentLevel`,
+            `student`.`studentForm`,
+            `student`.`studentSchoolAddress`
+        FROM `student`
+        WHERE
+        `student`.`studentId` IN
+        (
+            SELECT `stuchoosecourse`.`studentId`
+            FROM `nxlg`.`stuchoosecourse`
+            LEFT JOIN `nxlg`.`teachtask`
+            ON `teachtask`.`tc_id`=`stuchoosecourse`.`tc_id`
+            LEFT JOIN `nxlg`.`arrangecourse`
+            ON `arrangecourse`.`semester`=`teachtask`.`tc_semester`
+            WHERE
+            `is_now`=1
+            AND #{tc_id}=`teachtask`.`tc_id`
+        )
+        AND
+        (
+         (#{studentNum}='' OR `student`.`studentNum` LIKE CONCAT ('%',#{studentNum},'%'))
+         AND (#{studentName}='' OR `student`.`studentName` LIKE CONCAT ('%',#{studentName},'%'))
+         AND (#{studentGrade}='' OR `student`.`studentGrade` LIKE CONCAT ('%',#{studentGrade},'%'))
+         AND (#{studentCollege}='' OR `student`.`studentCollege` LIKE CONCAT ('%',#{studentCollege},'%'))
+         AND (#{studentMajor}='' OR `student`.`studentMajor` LIKE CONCAT ('%',#{studentMajor},'%'))
+         AND (#{studentClass}='' OR `student`.`studentClass` LIKE CONCAT ('%',#{studentClass},'%'))
+         AND (#{studentSchoolAddress}='' OR `student`.`studentSchoolAddress` LIKE CONCAT ('%',#{studentSchoolAddress},'%'))
+        )
+    </select>
+    <!--课程选修学生信息表-->
+    <select id="exportCourseStudentInfo" parameterType="java.lang.String" resultType="map">
+        SELECT
+        `student`.*
+        FROM `nxlg`.`student`
+        LEFT JOIN `nxlg`.`stuchoosecourse`
+        ON (`stuchoosecourse`.`studentId`=`student`.`studentId`)
+        LEFT JOIN `nxlg`.`teachtask`
+        ON (`teachtask`.`tc_id`=`stuchoosecourse`.`tc_id`)
+        WHERE
+        (`student`.`isDelete` IS NULL OR `student`.`isDelete`='否')
+        AND `teachtask`.`tc_id`=#{tc_id}
+        AND
+         (
+             `student`.`studentNum` LIKE CONCAT('%',#{searchStr},'%')
+             OR `student`.`studentName` LIKE CONCAT('%',#{searchStr},'%')
+             OR `student`.`studentGrade` LIKE CONCAT('%',#{searchStr},'%')
+             OR `student`.`studentCollege` LIKE CONCAT('%',#{searchStr},'%')
+             OR `student`.`studentMajor` LIKE CONCAT('%',#{searchStr},'%')
+         )
+    </select>
+</mapper>
